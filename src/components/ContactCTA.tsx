@@ -12,10 +12,10 @@ export default function ContactCTA() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
               ¿Necesitas atención personalizada?
             </h2>
-            <p className="mt-4 text-lg leading-8 text-gray-100">
+            <p className="mt-4 text-lg leading-8 text-gray-800">
               Contáctanos para agendar tu cita o resolver cualquier duda sobre nuestros servicios.
               Estamos aquí para ayudarte en tu proceso de recuperación.
             </p>
@@ -30,7 +30,7 @@ export default function ContactCTA() {
                 href="https://wa.me/593959518764"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-none rounded-md border border-white px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="flex-none rounded-md border border-white px-3.5 py-2.5 text-sm font-semibold text-gray-800 shadow-sm hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 WhatsApp
               </a>
@@ -46,7 +46,7 @@ export default function ContactCTA() {
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <svg
-                  className="h-6 w-6 text-white"
+                  className="h-6 w-6 text-gray-800"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
