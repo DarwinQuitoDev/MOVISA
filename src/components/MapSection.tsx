@@ -29,7 +29,7 @@ export default function MapSection() {
         >
           <iframe
             title="Ubicación de MOVISA"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.6291141388674!2d-78.26142233047326!3d0.2339056999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a1456569e21d9%3A0x48469c3f5a05ef4f!2sMOVISA!5e0!3m2!1ses!2sec!4v1619749876543!5m2!1ses!2sec"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1186.1698142463533!2d-78.25177196400607!3d0.23841452248918132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a150100ea1d91%3A0x5e1b0614549482c2!2sMOVISA%20OTAVALO!5e0!3m2!1ses!2sec!4v1747342145955!5m2!1ses!2sec"
             width="100%"
             height="450"
             style={{ border: 0 }}

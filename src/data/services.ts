@@ -33,14 +33,6 @@ export const services: Service[] = [
     longDescription: 'Nuestra terapia deportiva está diseñada para ayudar a atletas y deportistas a recuperarse de lesiones y mejorar su rendimiento. Incluye evaluación, tratamiento y programas de prevención.'
   },
   {
-    id: 4,
-    title: 'Terapia Pediátrica',
-    description: 'Atención especializada para niños con necesidades de rehabilitación.',
-    image: '/assets/pediatrica.jpg',
-    altText: 'Terapia pediátrica en MOVISA',
-    longDescription: 'La terapia pediátrica se enfoca en el desarrollo motor y la rehabilitación de niños. Trabajamos con casos de retraso en el desarrollo, parálisis cerebral y otras condiciones.'
-  },
-  {
     id: 5,
     title: 'Terapia Geriátrica',
     description: 'Rehabilitación adaptada para adultos mayores.',

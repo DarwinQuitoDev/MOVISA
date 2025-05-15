@@ -11,13 +11,16 @@ export default function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
+            <span className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              Centro fisioterapeutico
+            </span>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Tu centro de rehabilitación física en Otavalo
+              MOVISA OTAVALO
             </h1>
             <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-              En MOVISA, nos dedicamos a mejorar tu calidad de vida a través de terapias personalizadas
-              y atención profesional especializada. Contamos con las técnicas más modernas y un equipo
-              comprometido con tu recuperación.
+              En <b>MOVISA</b>, nos dedicamos a mejorar tu calidad de vida a través de <b>terapias personalizadas </b>
+              y <b>atención profesional</b> especializada. Contamos con las técnicas más modernas y un equipo
+              comprometido con tu recuperación, contamos con servicio a <b>atención a domicio</b>.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a

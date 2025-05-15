@@ -34,7 +34,7 @@ export default function Schedule() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <div className="p-8 sm:p-10 lg:flex-auto">
-            <div className="mt-6 flex items-center gap-x-4">
+            <div className="mt-4 flex items-center gap-x-4">
               <ClockIcon className="h-6 w-6 flex-none text-primary" aria-hidden="true" />
               <h3 className="flex-auto text-lg font-semibold leading-8 text-gray-900">
                 Nuestros Horarios
@@ -45,7 +45,7 @@ export default function Schedule() {
                 {schedule.map((timeSlot) => (
                   <li
                     key={timeSlot.day}
-                    className="flex items-center justify-between rounded-lg bg-white px-6 py-4 shadow-sm ring-1 ring-gray-900/5"
+                    className="flex items-center justify-between rounded-lg bg-white hover:bg-amber-100 px-6 py-4 shadow-sm ring-1 ring-gray-900/5"
                   >
                     <div className="font-medium text-gray-900">{timeSlot.day}</div>
                     <div className="text-gray-600">{timeSlot.hours}</div>
@@ -68,6 +68,7 @@ export default function Schedule() {
                   >
                     095 951 8764
                   </a>
+                  
                 </div>
                 <p className="mt-6 text-xs leading-5 text-gray-600">
                   También puedes escribirnos por WhatsApp

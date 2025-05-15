@@ -60,11 +60,11 @@ export default function ContactCTA() {
                   />
                 </svg>
               </div>
-              <dt className="mt-4 font-semibold text-white">Email</dt>
-              <dd className="mt-2 leading-7 text-gray-100">
+              <dt className="mt-4 font-semibold text-gray-800">Email</dt>
+              <dd className="mt-2 leading-7 text-gray-800">
                 <a
                   href="mailto:liz.kari1301@gmail.com"
-                  className="hover:text-white/90"
+                  className="hover:text-gray-500"
                 >
                   liz.kari1301@gmail.com
                 </a>
@@ -73,7 +73,7 @@ export default function ContactCTA() {
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <svg
-                  className="h-6 w-6 text-white"
+                  className="h-6 w-6 text-gray-800"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
@@ -92,8 +92,8 @@ export default function ContactCTA() {
                   />
                 </svg>
               </div>
-              <dt className="mt-4 font-semibold text-white">Dirección</dt>
-              <dd className="mt-2 leading-7 text-gray-100">
+              <dt className="mt-4 font-semibold text-gray-800">Dirección</dt>
+              <dd className="mt-2 leading-7 text-gray-800">
                 Estuardo Jaramillo y Víctor Garcés
                 <br />
                 Otavalo, Ecuador
