@@ -46,7 +46,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-              <div className="relative">
+              <div className="relative transition-all duration-300 ease-in-out transform hover:scale-110">
                 <img
                   src={equipo}
                   alt="Equipo de fisioterapia MOVISA"
@@ -56,7 +56,7 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-              <div className="relative">
+              <div className="relative transition-all duration-300 ease-in-out transform hover:scale-110">
                 <img
                   src={instalacion}
                   alt="Instalaciones modernas MOVISA"
@@ -64,7 +64,7 @@ export default function HeroSection() {
                 />
                 <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
               </div>
-              <div className="relative">
+              <div className="relative transition-all duration-300 ease-in-out transform hover:scale-110">
                 <img
                   src={atencion}
                   alt="Terapia personalizada MOVISA"

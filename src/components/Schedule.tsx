@@ -45,7 +45,7 @@ export default function Schedule() {
                 {schedule.map((timeSlot) => (
                   <li
                     key={timeSlot.day}
-                    className="flex items-center justify-between rounded-lg bg-white hover:bg-amber-100 px-6 py-4 shadow-sm ring-1 ring-gray-900/5"
+                    className="flex items-center justify-between rounded-lg bg-white hover:bg-gray-100 px-6 py-4 shadow-sm ring-1 ring-gray-900/5"
                   >
                     <div className="font-medium text-gray-900">{timeSlot.day}</div>
                     <div className="text-gray-600">{timeSlot.hours}</div>
@@ -63,7 +63,7 @@ export default function Schedule() {
                 <div className="mt-6 flex items-center justify-center gap-x-4">
                   <PhoneIcon className="h-6 w-6 text-primary" aria-hidden="true" />
                   <a
-                    href="tel:+593959518764"
+                    href="https://wa.me/593959518764" target="_blank" rel="noopener noreferrer"
                     className="text-lg font-semibold leading-6 text-gray-900"
                   >
                     095 951 8764

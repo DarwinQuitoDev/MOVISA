@@ -51,7 +51,7 @@ export default function MapSection() {
           </p>
           <div className="mt-4">
             <a
-              href="https://maps.app.goo.gl/6jHEfpbZzWJSqPcq9"
+              href="https://maps.app.goo.gl/xZqHDwiRVtP1ZQyG9"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80"
