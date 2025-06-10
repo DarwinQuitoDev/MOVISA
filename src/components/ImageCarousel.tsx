@@ -1,39 +1,32 @@
 import { useState, useEffect } from 'react';
 
 const images = [
-  '/src/assets/img/1.webp',
-  '/src/assets/img/2.webp',
-  '/src/assets/img/3.webp',
-  '/src/assets/img/4.webp',
-  '/src/assets/img/6.webp',
-  '/src/assets/img/7.webp',
-  '/src/assets/img/8.webp',
-  '/src/assets/img/9.webp',
-  '/src/assets/img/1.webp',
-  '/src/assets/img/2.webp',
-  '/src/assets/img/3.webp',
-  '/src/assets/img/4.webp',
-  '/src/assets/img/6.webp',
-  '/src/assets/img/7.webp',
-  '/src/assets/img/8.webp'
+  { src: '/src/assets/img/1.webp', alt: 'Profesional aplicando terapia física en MOVISA' },
+  { src: '/src/assets/img/2.webp', alt: 'Sala de terapia equipada con tecnología moderna' },
+  { src: '/src/assets/img/3.webp', alt: 'Sesión de rehabilitación deportiva personalizada' },
+  { src: '/src/assets/img/4.webp', alt: 'Instalaciones modernas del centro MOVISA' },
+  { src: '/src/assets/img/6.webp', alt: 'Equipo de fisioterapeutas profesionales' },
+  { src: '/src/assets/img/7.webp', alt: 'Área de terapia neurológica especializada' },
+  { src: '/src/assets/img/8.webp', alt: 'Ejercicios de rehabilitación guiados' },
+  { src: '/src/assets/img/9.webp', alt: 'Terapia geriátrica personalizada' }
 ];
 
-const CARDS_PER_SLIDE = 13;
+const CARDS_PER_SLIDE = 8;
 
 export default function ImageCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
   const totalSlides = Math.ceil(images.length / CARDS_PER_SLIDE);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-    }, 3000); // Rotate every 3 seconds
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [totalSlides]);
 
-  return (    <section className="py-12 bg-white">
+  return (
+    <section className="py-12 bg-white">
       <div className="container mx-auto pt-12 px-4">
         <div className="overflow-hidden relative max-w-4xl mx-auto">
           <div
@@ -56,8 +49,8 @@ export default function ImageCarousel() {
                       className="w-64 aspect-square"
                     >
                       <img
-                        src={image}
-                        alt={`Card ${slideIndex * CARDS_PER_SLIDE + imageIndex + 1}`}
+                        src={image.src}
+                        alt={image.alt}
                         className="w-full h-full object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow"
                       />
                     </div>
