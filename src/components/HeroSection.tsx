@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import instalacion from "../assets/img/4.webp"
 import equipo from "../assets/img/6.webp"
 import atencion from "../assets/img/1.webp"
+import whatsappIcon from "../assets/svg/whatsapp-svgrepo-com.svg"
 
 
 export default function HeroSection() {
@@ -30,8 +31,9 @@ export default function HeroSection() {
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="https://wa.me/593959518764" target="_blank" rel="noopener noreferrer"
-                className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-              >
+                className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary inline-flex items-center gap-2"
+              > 
+                <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5"/>
                 Agenda tu cita
               </a>
               <a href="#servicios" className="text-sm font-semibold leading-6 text-gray-900">
