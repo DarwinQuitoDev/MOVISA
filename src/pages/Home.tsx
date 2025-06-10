@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import Services from '../components/Services/Services';
+import ImageCarousel from '../components/ImageCarousel';
 import MapSection from '../components/MapSection';
 import Schedule from '../components/Schedule';
 import ContactCTA from '../components/ContactCTA';
@@ -13,6 +14,7 @@ export default function Home() {
         <Header />
         <main>
           <HeroSection />
+          <ImageCarousel />
           <Services />
           <MapSection />
           <Schedule />

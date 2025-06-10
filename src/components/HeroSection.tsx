@@ -1,9 +1,14 @@
 import { motion } from 'framer-motion';
 
+import instalacion from "../assets/img/4.webp"
+import equipo from "../assets/img/6.webp"
+import atencion from "../assets/img/1.webp"
+
+
 export default function HeroSection() {
   return (
     <div id="home" className="relative isolate overflow-hidden bg-white">
-      <div className="mx-auto max-w-7xl px-6 pt-24 sm:pt-32 lg:px-8">
+      <div className="mx-auto max-w-7xl px-8 pt-24 sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
           <motion.div 
             className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl"
@@ -24,8 +29,8 @@ export default function HeroSection() {
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
-                href="tel:+593959518764"
-                className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                href="https://wa.me/593959518764" target="_blank" rel="noopener noreferrer"
+                className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
                 Agenda tu cita
               </a>
@@ -43,7 +48,7 @@ export default function HeroSection() {
             <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
               <div className="relative">
                 <img
-                  src="/assets/hero-1.jpg"
+                  src={equipo}
                   alt="Equipo de fisioterapia MOVISA"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
@@ -53,7 +58,7 @@ export default function HeroSection() {
             <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
               <div className="relative">
                 <img
-                  src="/assets/hero-2.jpg"
+                  src={instalacion}
                   alt="Instalaciones modernas MOVISA"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
@@ -61,7 +66,7 @@ export default function HeroSection() {
               </div>
               <div className="relative">
                 <img
-                  src="/assets/hero-3.jpg"
+                  src={atencion}
                   alt="Terapia personalizada MOVISA"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
