@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5 text-gray-500">
-            &copy; {new Date().getFullYear()} MOVISA. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Ing. Darwin Quito. Todos los derechos reservados.
           </p>
         </div>
       </div>

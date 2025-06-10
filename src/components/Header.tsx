@@ -15,11 +15,15 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-white/90 backdrop-blur-sm">
+    <header className="fixed inset-x-0 top-0 z-50 bg-white backdrop-blur-sm">
       <nav className="flex items-center justify-between p-5 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="/#" className="-m-1.5 p-1.5">
-            <span className="text-2xl font-bold text-primary">MOVISA</span>
+            <img 
+              src="/src/assets/img/logo.webp" 
+              alt="MOVISA Logo" 
+              className="h-20 w-auto"
+            />
           </a>  
         </div>
         <div className="flex lg:hidden">
@@ -37,7 +41,7 @@ export default function Header() {
             <a
               key={item.name}
               href={item.to}
-              className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors"
+              className="text-sm font-semibold leading-10 text-gray-900 hover:text-primary transition-colors"
             >
               {item.name}
             </a>
@@ -57,7 +61,11 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
-              <span className="text-2xl font-bold text-primary">MOVISA</span>
+              <img 
+                src="/src/assets/img/logo.webp" 
+                alt="MOVISA Logo" 
+                className="h-12 w-auto"
+              />
             </Link>
             <button
               type="button"
