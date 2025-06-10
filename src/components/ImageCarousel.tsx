@@ -11,7 +11,7 @@ const images = [
   { src: '/src/assets/img/9.webp', alt: 'Terapia geriátrica personalizada' }
 ];
 
-const CARDS_PER_SLIDE = 8;
+const CARDS_PER_SLIDE = 9;
 
 export default function ImageCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,8 +27,8 @@ export default function ImageCarousel() {
 
   return (
     <section className="py-12 bg-white">
-      <div className="container mx-auto pt-12 px-4">
-        <div className="overflow-hidden relative max-w-4xl mx-auto">
+      <div className="container mx-auto pt-12 px-2">
+        <div className="overflow-hidden relative max-w-full mx-auto">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{
@@ -37,7 +37,7 @@ export default function ImageCarousel() {
             }}
           >
             {Array.from({ length: totalSlides }).map((_, slideIndex) => (
-              <div key={slideIndex} className="flex justify-center gap-8 w-full flex-shrink-0">
+              <div key={slideIndex} className="flex justify-center gap-4 w-full flex-shrink-0 ">
                 {images
                   .slice(
                     slideIndex * CARDS_PER_SLIDE,
@@ -46,7 +46,7 @@ export default function ImageCarousel() {
                   .map((image, imageIndex) => (
                     <div
                       key={imageIndex}
-                      className="w-64 aspect-square"
+                      className="w-64 aspect-square hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-110"
                     >
                       <img
                         src={image.src}

@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const navigation = [
   { name: 'Inicio', to: '/' },
-  { name: 'Servicios', to: '/servicios' },
-  { name: 'Horarios', to: '/horarios' },
-  { name: 'Ubicación', to: '/ubicacion' },
-  { name: 'Contacto', to: '/contacto' },
+  { name: 'Servicios', to: '/#servicios' },
+  { name: 'Horarios', to: '/#horarios' },
+  { name: 'Ubicación', to: '/#ubicacion' },
+  { name: 'Contacto', to: '/#contacto' },
 ];
 
 export default function Header() {
@@ -18,7 +18,7 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 z-50 bg-white/90 backdrop-blur-sm">
       <nav className="flex items-center justify-between p-5 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5">
+          <Link to="/#" className="-m-1.5 p-1.5">
             <span className="text-2xl font-bold text-primary">MOVISA</span>
           </Link>
         </div>
@@ -34,13 +34,13 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link
+            <a
               key={item.name}
-              to={item.to}
+              href={item.to}
               className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary transition-colors"
             >
               {item.name}
-            </Link>
+            </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
