@@ -52,3 +52,4 @@ export default tseslint.config({
   },
 })
 ```
+Derechos reservados para Ing. Darwin Quito
