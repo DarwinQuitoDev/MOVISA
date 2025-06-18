@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion';
 
-import instalacion from "../assets/img/4.webp"
-import equipo from "../assets/img/6.webp"
-import atencion from "../assets/img/1.webp"
-import whatsappIcon from "../assets/svg/whatsapp-svgrepo-com.svg"
-
+const instalacion = '/assets/img/4.webp';
+const equipo = '/assets/img/6.webp';
+const atencion = '/assets/img/1.webp';
+const whatsappIcon = '/assets/svg/whatsapp-svgrepo-com.svg';
 
 export default function HeroSection() {
   return (

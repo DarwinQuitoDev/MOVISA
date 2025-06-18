@@ -20,7 +20,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="/#" className="-m-1.5 p-1.5">
             <img 
-              src="/src/assets/img/logo.webp" 
+              src="/assets/img/logo.webp" 
               alt="MOVISA Logo" 
               className="h-20 w-auto"
             />
@@ -62,7 +62,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
               <img 
-                src="/src/assets/img/logo.webp" 
+                src="/assets/img/logo.webp" 
                 alt="MOVISA Logo" 
                 className="h-12 w-auto"
               />

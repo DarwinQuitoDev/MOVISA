@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 
 const images = [
-  { src: '/src/assets/img/1.webp', alt: 'Profesional aplicando terapia física en MOVISA' },
-  { src: '/src/assets/img/2.webp', alt: 'Sala de terapia equipada con tecnología moderna' },
-  { src: '/src/assets/img/3.webp', alt: 'Sesión de rehabilitación deportiva personalizada' },
-  { src: '/src/assets/img/4.webp', alt: 'Instalaciones modernas del centro MOVISA' },
-  { src: '/src/assets/img/6.webp', alt: 'Equipo de fisioterapeutas profesionales' },
-  { src: '/src/assets/img/7.webp', alt: 'Área de terapia neurológica especializada' },
-  { src: '/src/assets/img/8.webp', alt: 'Ejercicios de rehabilitación guiados' },
-  { src: '/src/assets/img/9.webp', alt: 'Terapia geriátrica personalizada' }
+  { src: '/assets/img/1.webp', alt: 'Profesional aplicando terapia física en MOVISA' },
+  { src: '/assets/img/2.webp', alt: 'Sala de terapia equipada con tecnología moderna' },
+  { src: '/assets/img/3.webp', alt: 'Sesión de rehabilitación deportiva personalizada' },
+  { src: '/assets/img/4.webp', alt: 'Instalaciones modernas del centro MOVISA' },
+  { src: '/assets/img/6.webp', alt: 'Equipo de fisioterapeutas profesionales' },
+  { src: '/assets/img/7.webp', alt: 'Área de terapia neurológica especializada' },
+  { src: '/assets/img/8.webp', alt: 'Ejercicios de rehabilitación guiados' },
+  { src: '/assets/img/9.webp', alt: 'Terapia geriátrica personalizada' }
 ];
 
 const CARDS_PER_SLIDE = 9;
